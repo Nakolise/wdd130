@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    background-color: hsl(0, 100%, 60%);
+    font-family: fantasy;
+}
+
+nav {
+    background-color: rgb(153, 22, 94);
+    padding: 10px;
+}
+
+a {
+    color: white;
+    margin: 40px;
+}
+
+h1 {
+    color: pink;
+}
+
+h2 {
+    color: gray;
+}
