@@ -1,0 +1,31 @@
+.logo{
+    text-align: center;
+    width: 80px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+nav{
+    display: flex;
+    padding: 30px;
+}
+
+nav a{
+    width: 100%;
+}
+
+#hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#hero-img{
+    width: 100%;
+}
+
+#hero-msg{
+    grid-column: 2/4;
+}
