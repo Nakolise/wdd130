@@ -3,7 +3,11 @@
 .logo{
     text-align: center;
     width: 75px;
-    justify-self: auto;
+}
+
+#logo-div{
+    align-self: center;
+    margin-left: 10px;
 }
 
 header{
@@ -71,10 +75,21 @@ body{
 .campaign-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 32px;
+}
+
+.campaign-grid section{
+    margin: 10px;
+    background-color: red;
+    border: 4px solid black;
+}
+
+.campaign-grid section p{
+    padding: 25px;
 }
 
 #campaign-card img{
-    width: 500px;
+    width: 90%;
     grid-column: 1/2;
     margin: 25px;
     text-align: center;
@@ -85,7 +100,7 @@ body{
 }
 
 #campaign-card2 img{
-    width: 500px;
+    width: 90%;
     grid-column: 2/3;
     margin: 25px;
     text-align: center;
@@ -96,7 +111,7 @@ body{
 }
 
 #campaign-card3 img{
-    width: 500px;
+    width: 90%;
     grid-column: 1/3;
     margin: 25px;
     text-align: center;
@@ -107,13 +122,26 @@ body{
 }
 
 #campaign-card4 img{
-    width: 500px;
+    width: 90%;
     grid-column: 2/3;
     margin: 25px;
     text-align: center;
 }
 
 #campaign-card4 h2{
+    text-align: center;
+}
+
+.rules-grid{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#rules-img img{
+    width: 100%;
+}
+
+#rules-card h2 p{
     text-align: center;
 }
 
