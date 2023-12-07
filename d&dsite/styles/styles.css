@@ -13,7 +13,7 @@
 header{
     display: grid;
     grid-template-columns: 1fr 3fr;
-    background-color: rgb(216, 16, 16);
+    background-color: red;
 }
 
 nav{
@@ -137,7 +137,21 @@ body{
     margin: 0 auto;
 }
 
-#rules-img img{
+.rules-grid section{
+    margin: 30px;
+    border: 4px solid black;
+    background-color: red;
+}
+
+.rules-grid section h2{
+    padding: 10px;
+}
+
+.rules-grid section p{
+    padding: 10px;
+}
+
+.rules-grid section img{
     width: 100%;
 }
 
@@ -148,7 +162,7 @@ body{
 footer{
     display: flex;
     flex: 1;
-    background-color: rgb(216, 16, 16);
+    background-color: red;
 }
 
 footer p{

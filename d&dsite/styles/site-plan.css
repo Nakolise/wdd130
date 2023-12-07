@@ -5,7 +5,7 @@ Fonts are separated by a | */
 
   :root {
   /* change the values below to your colors from your palette */
-  --primary-color: rgb(216, 16, 16)   ;
+  --primary-color: red   ;
   --secondary-color: black ;
   --accent1-color: gray ;
   --accent2-color: white;
@@ -15,15 +15,15 @@ Fonts are separated by a | */
   --paragraph-font: 'Playpen Sans', cursive;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: rgb(216, 16, 16);  /* headlines on a white background */ 
+  --headline-color-on-white: red;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: rgb(216, 16, 16); /* paragraph text on a white background */ 
+  --paragraph-color-on-white: red; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: rgb(216, 16, 16)  ;
-  --nav-link-color: rgb(216, 16, 16);
+  --paragraph-background-color: red  ;
+  --nav-link-color: red;
   --nav-background-color: black;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: rgb(216, 16, 16);
+  --nav-hover-background-color: red;
 }
 
 
